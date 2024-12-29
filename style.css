@@ -1,0 +1,48 @@
+html{
+    font-family: "Sour Gummy", serif;
+}
+/* #85A947 */
+body{
+    margin: 0;
+    background-color: #85A947;
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+    text-decoration: underline;
+}
+h3{
+   position: absolute;
+   top: 20vh;
+   font-size: 2rem;
+
+}
+
+.header{
+    height: 20vh;
+    width: 100wh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 60vh;
+    width: 100wh;
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    border-radius: 50px;
+    height: 90%;
+    width: 30%;
+    background-color: crimson;
+    box-shadow: 2px 2px crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item img{
+    position: absolute;
+}
+  
